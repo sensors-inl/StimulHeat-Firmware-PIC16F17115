@@ -1,7 +1,17 @@
 /*
- * File:   pin.c
- * Author: MESNAGE Matthieu
+ * Project: StimulHeat
+ * Authors: Matthieu Mesnage, Bertrand Massot
+ * Company : INSA Lyon - INL
+ * Date: 2025-05-28
+ *
+ * This file is licensed under the GNU General Public License v3.0.
+ * SPDX-License-Identifier: GPL-3.0-only
+ *
+ * For commercial use or licensing inquiries, contact:
+ * bertrand.massot@insa-lyon.fr
  */
+
+
 
 #include "xc.h"
 
@@ -60,7 +70,7 @@ void pin_MUX_Configuration(void){
     LATAbits.LATA5 = 0;
     ANSELAbits.ANSA5 = 0;
     
-    // Valeur par défaut
+    // Valeur par dï¿½faut
     PORTAbits.RA5 = 0;
     
     // >> Use of RA4 for RED LED
@@ -70,6 +80,6 @@ void pin_MUX_Configuration(void){
     LATAbits.LATA4 = 0;
     ANSELAbits.ANSA4 = 0;
     
-    // Valeur par défaut
+    // Valeur par dï¿½faut
     PORTAbits.RA4 = 0;
 }
