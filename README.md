@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <h1 align="center">Stimulheat - Firmware ISP1807</h1>
+    <h1 align="center">Stimulheat - Firmware PIC16F17115</h1>
 </p>
 
-The **Stimulheat - Firmware ISP1807** project contains the firmware used to program the ISP1807 microcontroller. It was developed using VSCode.
+The **Stimulheat - Firmware PIC16F17115** project contains the firmware used to program the PIC16F17115 microcontroller. It was developed using MPLAB X IDE.
