@@ -11,6 +11,8 @@ html/
 nbproject/private/
 nbproject/Package-*.bash
 build/
+dist/default/production/*
+!dist/default/production/stimulheat-firmware-pic16f17115.production.hex
 nbbuild/
 nbdist/
 nbactions.xml
