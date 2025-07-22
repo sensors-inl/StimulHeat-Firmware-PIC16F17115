@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Front_End_StimulHeat_v1.0.X
+PROJECTNAME=stimulheat-firmware-pic16f17115
 
 # Active Configuration
 DEFAULTCONF=default
